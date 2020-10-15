@@ -3,6 +3,14 @@ package com.lti.model;
 public class Project {
     int projectCode;
     String projectName;
+    int projectDuration;
+    
+	public int getProjectDuration() {
+		return projectDuration;
+	}
+	public void setProjectDuration(int projectDuration) {
+		this.projectDuration = projectDuration;
+	}
 	public int getProjectCode() {
 		return projectCode;
 	}
